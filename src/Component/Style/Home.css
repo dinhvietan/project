@@ -1,4 +1,7 @@
-.carousel-inner>.item>a>img, .carousel-inner>.item>img{
-    height: 420px;
-    max-width: none;
+
+@media (min-width: 320px){
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+        height: 300px;
+        width: 100%;
+    }
 }

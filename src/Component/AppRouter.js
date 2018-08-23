@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import LoginForm from './LoginForm';
 import Home from './Home';
-import Recommend from './Recommend';
+import Product from './Product';
 import Header from './Header';
 import Profile from './Profile';
 import Account from './Account';
+import ProductDetail from './ProductDetail';
 
 
 
@@ -34,9 +35,10 @@ class AppRouter extends React.Component {
           <Switch>
             <Route key={1} exact path="/" component={Home}/>
             <Route key={2} path="/login" component={LoginForm}/>
-            <Route key={3} path="/product" component={Recommend}/>
+            <Route key={3} path="/product" component={Product}/>
             <Route key={4} path="/profile" component={Profile}/>
-            <Route key={4} path="/account" component={Account}/>
+            <Route key={5} path="/account" component={Account}/>
+            <Route key={6} path="/productdetail" component={ProductDetail}/>
           </Switch>
         </Router>
       </div>

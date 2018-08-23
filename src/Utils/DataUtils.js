@@ -1,4 +1,3 @@
-
 let obj = {
     getUserList() {
         return [

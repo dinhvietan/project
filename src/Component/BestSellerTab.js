@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import { Panel, Image, Row, Col} from 'react-bootstrap';
 import './Style/ProductTab.css'
 
+
 class BestSellerTab extends Component{
     constructor(props) {
         super(props);
-        this.state = {
-        };
     }
       
     render(){
@@ -21,7 +20,7 @@ class BestSellerTab extends Component{
                 <Col xs={12} sm={12} md={12} lg={3}>
                 <Panel>
                     <Panel.Heading>
-                        <Image src="http://www.gheda.eu/wp-content/uploads/2017/05/immagine-linea-dogdog-wild.jpg" responsive />
+                        <Image src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350"  responsive />
                     </Panel.Heading>
                     <Panel.Body>Panel content</Panel.Body>
                 </Panel>
@@ -30,7 +29,7 @@ class BestSellerTab extends Component{
                 <Col xs={12} sm={12} md={12} lg={3}>
                 <Panel>
                     <Panel.Heading>
-                        <Image src="http://www.gheda.eu/wp-content/uploads/2017/05/immagine-linea-dogdog-wild.jpg" responsive />
+                        <Image src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350" responsive />
                     </Panel.Heading>
                     <Panel.Body>Panel content</Panel.Body>
                 </Panel>
@@ -39,7 +38,7 @@ class BestSellerTab extends Component{
                 <Col xs={12} sm={12} md={12} lg={3}>
                 <Panel>
                     <Panel.Heading>
-                        <Image src="http://www.gheda.eu/wp-content/uploads/2017/05/immagine-linea-dogdog-wild.jpg" responsive />
+                        <Image src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350" responsive />
                     </Panel.Heading>
                     <Panel.Body>Panel content</Panel.Body>
                 </Panel>
@@ -48,7 +47,7 @@ class BestSellerTab extends Component{
                 <Col xs={12} sm={12} md={12} lg={3}>
                 <Panel>
                     <Panel.Heading>
-                        <Image src="http://www.gheda.eu/wp-content/uploads/2017/05/immagine-linea-dogdog-wild.jpg" responsive />
+                        <Image src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350" responsive />
                     </Panel.Heading>
                     <Panel.Body>Panel content</Panel.Body>
                 </Panel>

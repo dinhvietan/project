@@ -29,6 +29,9 @@
 .navbar-default .navbar-nav .open .dropdown-menu>li>a{
     color: white;
 }
+.app-logo{
+    width: 36px;
+}
 @media (min-width: 768px){
     .navbar-default .navbar-nav .open .dropdown-menu>li>a{
         color: black !important;

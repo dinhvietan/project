@@ -27,7 +27,7 @@ class Profile extends React.Component {
             <div>
                 <Panel className="page-panel">
                     <Panel.Heading>
-                    <Panel.Title className="parallax"><h3>User Information</h3></Panel.Title>
+                    <Panel.Title className="parallax"><h2>User Information</h2></Panel.Title>
                     </Panel.Heading>
                     <Panel.Body>
                         {_userTemplate}

@@ -18,11 +18,12 @@ class ProductTab extends Component {
         <div>
             <Grid>
             <br/>
-            <BestSellerTab/>
+            <BestSellerTab className="parralax"/>
 
             <RecommendTab/>
 
             <SellOffTab/>
+            
             </Grid>
         </div>
         );
