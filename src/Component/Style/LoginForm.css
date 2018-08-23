@@ -1,0 +1,18 @@
+.btn-default{
+    background-color: #61c100; 
+    color: white;
+    border: none;
+    width: 100%;
+    margin-top: 40px; 
+}
+.btn-default:hover, .btn-default:active, .btn-default:focus{
+    background-color: #128c14 !important;
+    color: white !important;
+}
+.span-login{
+    margin-bottom: 10px;
+    display: block;
+}
+.row-email-login{
+    margin-top: 50px;
+}

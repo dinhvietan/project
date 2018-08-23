@@ -1,0 +1,11 @@
+.clearfix{
+    margin-top: 40px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color: white !important;
+    background-color: #61c100 !important;
+}
+a{
+    color: black !important;
+}

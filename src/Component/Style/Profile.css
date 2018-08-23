@@ -1,0 +1,23 @@
+.panel-title{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+table, th, td{
+    border: none !important;
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350");
+
+    /* Set a specific height */ 
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: white;
+}

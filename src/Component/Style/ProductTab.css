@@ -1,0 +1,17 @@
+.panel-heading{
+    height: 150px;
+    padding: 0;
+}
+.img-responsive, .thumbnail a>img, .thumbnail>.img-responsive{
+    height: 150px;
+    max-width: 100%;
+}
+@media (max-width: 1100px){
+    .panel-heading{
+        height: 300px;
+    }
+    .img-responsive, .thumbnail a>img, .thumbnail>.img-responsive{
+        height: 300px;
+        max-width: 100%;
+    }
+}
